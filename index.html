@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <div id="formlabel">Personal details</div>
+    <label for="Salutation">Salutation
+        <br>
+    </label>
+        <select name="" id="Salutation" required>
+            <option value="Salutation">--None--</option>
+            <option value="Salutation">Mr.</option>
+            <option value="Salutation">Mrs.</option>
+        </select>
+        <br>
+        <br>
+        <lable for="firstName">First Name:</lable>
+            <input type="text" placeholder="abcd" id="firstName" size="20" required>
+            <br><br>
+        <labal for="lastName">Last Name:</labal>
+            <input type="text" placeholder="abcd" id="lastName" size="20" required>
+            <br>
+            <br>
+            <label for="gender">Gender: </label>
+            <input type="radio" name="gender" id="gender"> Male 
+            <input type="radio" name="gender" id="gender"> Female 
+            <br><br>
+            <lable for="email">Email: </lable>
+            <input type="email" name="email" value="abc@gmail.com" required>
+            <br><br>
+            <lable for="dob">Date of birth:</lable>
+            <input type="date" name="" id="dob">
+            <br>
+            <br>
+            <label for="address">Address:</label><br>
+            <textarea cols="30" rows="6" id="address"></textarea>
+            <br>
+            <br>
+            <input type="Submit" value="Submit" required>
+</body>
+</html>
